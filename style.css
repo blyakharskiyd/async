@@ -1,0 +1,40 @@
+.buttonsWrapper {
+  position: relative;
+  padding: 0 50px;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrapperBtn {
+  background-color: brown;
+  display: block;
+  width: 200px;
+}
+
+.wrapperItem > ul {
+  justify-content: center;
+  padding-inline-start: 20px !important;
+}
+
+.wrapperData {
+  margin: auto;
+  list-style-type: none;
+  font-size: smaller;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.wrapperDataPost {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.loader {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  display: flex;
+  justify-content: center;
+}
